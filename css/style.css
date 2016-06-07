@@ -869,3 +869,85 @@ visibility:visible; /* lt-ie9 */
 		font-size: 13px;
 	}
 }
+
+/*=======================
+	Техническая помощь
+=======================*/
+figure img{
+	max-width: 100%;
+}
+.block-title{
+	margin-bottom: 40px;
+}
+.faq{
+	margin-bottom: 30px;
+}
+.faq__item{
+	padding: 15px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+}
+.faq__item--question{
+	margin-right: 60px;
+	background: #D5FFFF;
+	background: linear-gradient(to top, #D5FFFF, #9DF5F5);
+}
+.faq__item--answer{
+	margin-left: 60px;
+	background: #ACCEF7;
+	background: linear-gradient(to top, #C5DAF5, #95C2F9);
+}
+.faq__name{
+	font-weight: bold;
+}
+.technical-help{
+	padding: 60px;
+}
+.technical-help-form {
+    background: #F8F6F4;
+    padding: 60px;
+}
+.technical-help,
+.product-compare,
+.product-inro,
+.product-benefit{
+	padding: 40px;
+}
+
+@media screen and (max-width: 767px){
+	.technical-help,
+	.product-compare,
+	.product-inro,
+	.product-benefit,
+	.technical-help-form{
+		padding: 10px;
+	}
+	.faq__item--question {
+		margin-right: 20px;
+	}
+	.faq__item--answer {
+		margin-left: 20px;
+	}
+}
+
+
+/*=======================
+	Страница продукта
+=======================*/
+span.glyphicon-ok{
+	color: #40D05F;
+}
+span.glyphicon-remove{
+	color: #DC1919;
+}
+.product-compare__table{
+	text-align: center;
+}
+.product-compare__table td:first-child{
+	text-align: left;
+}
+.btn-wrap{
+	text-align: center;
+	margin-bottom: 10px;
+}
